@@ -1,12 +1,62 @@
-
-/* 
-
-    You can write your own styles here...
+body{
+    background-color: rgb(0, 0, 0);
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    appearance: none; 
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.counterContainer{
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #ffa60c 75%);
+    min-width:500px;
+    width: 50%;
+    margin: auto;
+}
+
+.clockIcon{
+    font-size: 6rem;
+}
+
+.secondsContainer{
+    margin: 10px 0px;
+    font-family: 'Nabla', cursive;
+  height: 500px;
+  width: 500px;
+  background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #ffa60c 75%);
+  
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.seconds{
+    padding: 180px 10px;
+    font-size: 5rem;
+}
+
+::placeholder{
+    color: #ffffff;
+}
+.inputValue{
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #ffa60c 75%);
+    color: #ffffff;
+     font-size: large;
+     font-weight: 700;
+     width: 20%;
+     border-style: none;
+     outline: none;
+    
+     
+}
+
+
+.valueBtn{
+    padding: 11px;
+    margin-bottom: 9px;
+}
